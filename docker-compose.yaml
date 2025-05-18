@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  frontend:
+    container_name: hope_application
+    build:
+      context: .
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.workshop-title {
+    color: white;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400; 
+    font-size: 7rem;
+    text-shadow:
+        -1px -1px 0 #9D655B,
+        1px -1px 0 #9D655B,
+        -1px 1px 0 #9D655B,
+        1px 1px 0 #9D655B;
+}
+
+.about-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 7rem;
+    font-style: "italic"
+}
